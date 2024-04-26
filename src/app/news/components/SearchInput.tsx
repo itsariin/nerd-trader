@@ -1,5 +1,5 @@
 "use client"
-
+import React from 'react';
 import { useState, FormEvent} from 'react'
 import { BiSearch } from 'react-icons/bi'
 import { useRouter } from 'next/navigation'

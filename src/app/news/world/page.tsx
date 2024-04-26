@@ -1,3 +1,4 @@
+import React from 'react';
 import { getNewsSearch } from '../api'
 import Article from '../components/Article'
 import { removeDuplicateData } from '../utils'

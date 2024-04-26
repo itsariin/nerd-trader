@@ -1,3 +1,4 @@
+import React from 'react';
 import { getNewsTopHeadlines } from '../api'
 import { removeDuplicateData } from '../utils'
 import Article from './Article'

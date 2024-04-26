@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Trispace } from 'next/font/google'
 import Navbar from './components/Navbar'
 import './globals.css'
+import React from 'react';
 import Header from './components/Header'
 import RandomNews from './components/RandomNews'
 

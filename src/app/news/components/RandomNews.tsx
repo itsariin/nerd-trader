@@ -1,3 +1,4 @@
+import React from 'react';
 import { getNewsSearch } from '../api'
 import RandomArticle from './RandomArticle'
 import { removeDuplicateData } from '../utils'
