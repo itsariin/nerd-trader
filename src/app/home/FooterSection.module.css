@@ -1,0 +1,28 @@
+.footer {
+    width: 100%;
+    padding: 16px 0;
+    border-top: 1px solid #ccc;
+    /* display: flex;
+    justify-content: center;
+    align-items:center; */
+  }
+  
+  .icon {
+    display:flex;
+    justify-content:center;
+    margin:auto;
+    padding:1vh;
+  }
+  .alignMent{
+    display : flex;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .alignMent1{
+    display : flex;
+    font-size: 16px;
+    font-weight: 400;
+    align-items:center;
+    justify-content:space-around;
+
+  }

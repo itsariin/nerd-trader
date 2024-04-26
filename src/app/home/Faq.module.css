@@ -1,0 +1,15 @@
+.FAQcontainer{
+    height:100vh;
+}
+.headerF{
+    text-align: center;
+}
+.h1_class{
+    font-weight: bold;
+    font-size:xx-large;
+    display:block;
+    text-align: center;
+}
+/* .p_class{
+    width:75vh;
+} */

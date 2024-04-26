@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.newshead{
+    display: flex;
+    padding: 10px;
+}
+
+.h1{
+    font-size:xx-large;
+    font-weight: bold;
+    display: inline;
+}
+
+.logo {
+    display: inline;
+    width: 50px;
+    height: 50px;
+    padding: 8px;
+}
+
+.newshere{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsC{
+    display:flex;
+    align-items: center;
+    padding: 2vh;
+    border: 3px solid black;
+    border-radius : 20px;
+    margin:5px;
+}
+
+.p{
+    display: inline;
+    align-self:center;
+    background-color: brown;
+}
+.h1_class{
+    font-weight: bold;
+    font-size: xx-large;
+    
+}

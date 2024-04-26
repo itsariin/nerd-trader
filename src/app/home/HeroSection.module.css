@@ -1,0 +1,40 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size:x-large;
+    font-weight:bold;
+}
+
+.search{
+    margin: 10px;
+    padding : 10px;
+    width: 100vh;
+    border-radius: 20px;
+    border: dashed;
+}
+
+.alignment{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    width: 104px;
+    height: 86px;
+    margin: 0 !important;
+    top: 0;
+    object-fit: cover;
+  }
+
+.largepage{
+    height: 100vh;
+}
+.bookvalue{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:200;
+    padding : 5vh;
+}
