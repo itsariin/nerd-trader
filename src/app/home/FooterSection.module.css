@@ -1,7 +1,11 @@
+
+
 .footer {
     width: 100%;
     padding: 16px 0;
     border-top: 1px solid #ccc;
+    padding-right: 35%;
+    padding-left: 35%;
     /* display: flex;
     justify-content: center;
     align-items:center; */
