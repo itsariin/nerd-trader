@@ -29,11 +29,11 @@ function Page() {
     // Load all CSV data here
     const fetchData = async () => {
       try {
-        const ratiosData = await parseCSVFile('/src/csvs/Ratios.csv');
-        const opportunitiesAndObstaclesData = await parseCSVFile('/src/csvs/OpportunitiesAndObstacles.csv');
-        const profitAndLossData = await parseCSVFile('/src/csvs/PL.csv');
-        const balanceSheetData = await parseCSVFile('/src/csvs/BalanceSheet.csv');
-        const shareHoldingPatternData = await parseCSVFile('/src/csvs/ShareHoldingPattern.csv');
+        const ratiosData = await parseCSVFile('./csvs/Ratios.csv');
+        const opportunitiesAndObstaclesData = await parseCSVFile('./csvs/PL.csv');
+        const profitAndLossData = await parseCSVFile('./csvs/PL.csv');
+        const balanceSheetData = await parseCSVFile('./csvs/BalanceSheet.csv');
+        const shareHoldingPatternData = await parseCSVFile('./csvs/Pattern.csv');
 
         setCsvData({
           KeyParameters: ratiosData,
@@ -80,20 +80,17 @@ function Page() {
         <RenderCSVData csvData={csvData.KeyParameters} sectionKey="Key Parameters & Ratios" />
       </div>
       <div>
-        Opportunities And Obstacles Matrix
-        {/* Data From Model to be put here */}
+        <RenderCSVData csvData={csvData.OpportunitiesAndObstacles} sectionKey="Opportunities And Obstacles Matrix "/>
       </div>
       <div>
-        Profit and Loss
-        {/* Data from Profit loss CSV to be put here */}
+        <RenderCSVData csvData={csvData.ProfitAndLoss} sectionKey="Profit and Loss" />
       </div>
       <div>
-        Balance Sheet
-        {/* Data from Balance Sheet CSV to be put here */}
+        
+        <RenderCSVData csvData={csvData.BalanceSheet} sectionKey="Balance Sheet" />
       </div>
       <div>
-        Share Holding Pattern
-        {/* Data from Share Holding Pattern CSV to be put here */}
+        <RenderCSVData csvData={csvData.ShareHoldingPattern} sectionKey="Share Holding Pattern" />
       </div>
       <FooterSection/>
     </>
