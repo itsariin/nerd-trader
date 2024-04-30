@@ -30,7 +30,7 @@ function Page() {
     const fetchData = async () => {
       try {
         const ratiosData = await parseCSVFile('./csvs/Ratios.csv');
-        const opportunitiesAndObstaclesData = await parseCSVFile('./csvs/PL.csv');
+        const opportunitiesAndObstaclesData = await parseCSVFile('./csvs/Pattern.csv');
         const profitAndLossData = await parseCSVFile('./csvs/PL.csv');
         const balanceSheetData = await parseCSVFile('./csvs/BalanceSheet.csv');
         const shareHoldingPatternData = await parseCSVFile('./csvs/Pattern.csv');
